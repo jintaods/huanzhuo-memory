@@ -20,7 +20,7 @@ agent_created: true
 
 playwright-cli 的 `fill` 命令原生支持 React 表单——它会触发完整的 input + change 事件链，让 React SPA 正确接收输入。这是目前唯一能在沙箱中准确查询 CNIPA 商标数据库的方法。
 
-**playwright-cli v0.1.17 已安装，路径：** `C:\Users\user\AppData\Local\Programs\WorkBuddy\resources\app.asar.unpacked\resources\extensions\playwright-cli\bin\playwright-cli.exe`
+**playwright-cli 已内置于 WorkBuddy 环境。** 如果当前环境没有 playwright-cli，可以通过 `npx playwright-cli@latest` 或安装 WorkBuddy 的 playwright-cli 插件获取。
 
 ---
 
